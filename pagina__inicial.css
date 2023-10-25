@@ -1,0 +1,50 @@
+
+
+/* Texto corrido */
+h1 {
+    font-size: 70px;
+    font-family: 'Sofia Sans', sans-serif;
+    color:#DEA500;
+    
+}
+
+.bem__vindo {
+    position: relative;
+    top: 1182px;
+    font-size: 91px;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #DEA500;
+    z-index: 1;
+    margin: -107px 410px;
+    left: -175px;
+}
+
+.elenco{
+    font-size: 38px;
+    font-family: 'Sofia Sans', sans-serif;
+    color:#DEA500;
+}
+
+.diretoria{
+    font-size: 38px;
+    font-family: 'Sofia Sans', sans-serif;
+    color:#DEA500;
+}
+
+.estadio{
+    width: 100%;
+}
+
+@media (max-width:1440px){
+    
+    .bem__vindo {
+        position: absolute;
+        top: 822px;
+        font-size: 50px;
+        font-family: 'Sofia Sans', sans-serif;
+        color: #DEA500;
+        margin: -103px 429px;
+        left: -25px;
+        }
+    
+    }
