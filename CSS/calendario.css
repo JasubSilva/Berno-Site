@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Sofia+Sans:wght@500;800&display=swap');
+
+/* Sofia Sans Bold - Texto telas iniciais
+Sofia Sans Medium - Subtitulo
+Montserrat Bold - Palavras grifadas
+Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.temporada{
+    background-color: #F7D020;
+    color: #000;
+    border-radius: 38px;
+    font-size: 64px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    width: 1000px;
+}
+
+/* Campeonato Paulista */
+
+.temporada__paulista{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 35px;
+}
+
+.temporada__titulo{
+    font-size: 48px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    padding: 23px;
+
+}
+
+.temporada__foto{
+    padding: 10px;    
+}
+
+/* Taça Independencia */
+
+.taçaindependencia{
+    font-size: 48px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    padding: 23px;
+
+}
+
+.taçaindependencia__texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 35px;
+}
+
+.taçaindependencia__foto{
+    padding: 10px;    
+}

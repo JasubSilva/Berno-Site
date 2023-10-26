@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Sofia+Sans:wght@500;800&display=swap');
+
+/* Sofia Sans Bold - Texto telas iniciais
+Sofia Sans Medium - Subtitulo
+Montserrat Bold - Palavras grifadas
+Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+

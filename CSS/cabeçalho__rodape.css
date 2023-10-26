@@ -85,8 +85,9 @@ footer{
     margin: auto 45px;
 }
 
+    /* Laptop L */
 
-@media (max-width: 1440px) {
+@media (max-width: 1440px) { 
 
      /* Cabeçalho */
    
@@ -166,3 +167,55 @@ footer{
         display: inline;
     }
     
+/* Laptop */
+
+@media (max-width:1024px){
+
+       /* Cabeçalho */
+    
+       header {
+
+        width: 1024px;
+        height: 60px;
+        background-color: #060604;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+
+    nav a {
+        color: #F5F5F5;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Sofia Sans', sans-serif;
+        float: left;
+        margin: auto 10px;
+    }
+    
+    .escudo{
+        width: 7%;
+    }
+    .instagram{
+        margin: auto 10px;
+        height: 35px;
+    }
+
+    .facebook{
+        margin: auto 10px;
+        height: 35px;
+    }
+
+    /* Rodapé */
+
+  .titulo{
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+.imgs{
+
+}
+
+}
