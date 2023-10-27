@@ -90,5 +90,27 @@ h1 {
         margin: -103px 429px;
         left: -25px;
         }
+
+        .estadio{
+            width: 100%;
+            height: 60%;
+        }
     
     }
+
+@media (max-width: 1024px){
+    
+    .bem__vindo {
+        position: absolute;
+        top: 822px;
+        font-size: 50px;
+        font-family: 'Sofia Sans', sans-serif;
+        color: #DEA500;
+        margin: -95px 425px;
+        left: -20px;
+        }
+    
+    .estadio {
+        width: 1440px;
+    }
+}
