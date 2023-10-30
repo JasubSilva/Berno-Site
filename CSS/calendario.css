@@ -66,3 +66,49 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 .taçaindependencia__foto{
     padding: 10px;    
 }
+
+/* Brasileirão Série C */
+
+.brasileiro__c{
+    font-size: 48px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    padding: 23px;
+
+}
+
+.brasileiro__c__texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 35px;
+}
+
+.taçaindependencia__foto{
+    padding: 10px;    
+}
+
+/* Copa do Brasil */
+
+.copa__brasil{
+    font-size: 48px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    padding: 23px;
+
+}
+
+.copa__brasil__texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 35px;
+}
+
+.taçaindependencia__foto{
+    padding: 10px;    
+}
