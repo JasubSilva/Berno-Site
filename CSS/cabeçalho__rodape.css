@@ -56,48 +56,47 @@ header {
 
     /* Rodape */
 
-footer{
-    background-color: #060604;
-    display: flex;
-    height: 330px;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
-.parte01 h1, .parte02 h1{
-    margin: 15px 60px;
-    font-size: 30px;
-    font-family: 'Sofia Sans', sans-serif ;
-    color: #DEA500;
-}
+    footer {
+        background-color: #060604;
+    }
+    .total {
+        width: auto ;
+        padding: 2rem 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .parte01, .parte02{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .parte01 h1, .parte02 h1{
+        font-family: 'Sofia Sans', sans-serif;
+        font-size: 30px;
+        color: #DEA500;
+        margin: 10px auto;
+    }
+    
+    .div01, .div02{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .div01 img {
+        width: 65px;
+        height: 60px;
+        margin: auto 5px;
+    }
+    
+    .div02 img {
+        width: 250px;
+        height: 200px;
+    }
 
-.rodape__redes{
-    height: 57%;
-    width: 30%;
-    margin: 30px;
-}
-
-.rodape__patrocinio{
-    margin: auto 15px;
-}
-
-.rodape__patrocionio__texto{
-    height: 10px;
-}
-
-.rodape__patrocionio__amao{
-    height: 80%;
-}
-
-.rodape__patrocionio__magnum{
-    height: 57%;
-    width: 30%;
-    margin: 30px;
-}
-
-.rodape__redes__instagram{
-    margin: auto 45px;
-}
 
     /* Laptop L */
 
@@ -143,12 +142,14 @@ footer{
 
     /* Rodapé */
 
+
     footer {
         background-color: black;
     }
     .total {
         width: auto ;
         padding: 2rem 3rem;
+
         display: flex;
         justify-content: space-between;
     }
@@ -186,7 +187,10 @@ footer{
     
             Laptop
 
-/* /* @media (max-width:1024px){
+
+
+
+
 
        /* Cabeçalho */
 
@@ -226,25 +230,5 @@ footer{
         height: 35px;
     } 
 
-    /* Rodapé */
 
-    .rodape__titulo{
-    display: flex;
-    flex-direction: row;
-  }
-
-    .rodape__imgs{
-    display: flex;
-    justify-content: baseline;
-    flex-direction: row;
-}
-
-    footer{
-    background-color: #060604;
-    display: flex;
-    height: 330px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 1440px;
-}
-}
+    }
