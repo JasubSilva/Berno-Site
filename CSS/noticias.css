@@ -29,17 +29,35 @@ h1{
     justify-content: center;
 }
 
+
+.inicio__texto{
+    position: absolute;
+    top: 310px;
+    left: 122px;
+}
+
 /* Imagens */
 
 .inicio{
     height: 728px;
-    width: 1000px;
-    
+    width: 1440px;
 }
 
-.Independência{
-    height: 728px;
-    width: 1000px;
+
+.Independência__foto{
+    width: 400px;
     display: flex;
     justify-content: center;
+    margin: 50px;
+}
+
+/* Div Texto e Imagem */
+
+.Independência{
+    display: flex;
+    align-items: stretch;
+}
+
+.Independência__texto{
+    margin: 50px;
 }
