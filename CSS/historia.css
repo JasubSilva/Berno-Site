@@ -10,3 +10,49 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     padding: 0%;
 }
 
+/* Texto corrido */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #000;
+    margin: 30px;
+}
+
+/* Titulos H1 */
+
+.historia{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 48px;
+    color: #DEA500;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 48px;
+    color: #DEA500;
+    display: flex;
+    justify-content: center;
+}
+
+/* Imagens */
+
+.taça__independencia{
+    height: 728px;
+}
+
+
+.estadio__img{
+    height: 728px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.magnum__acao{
+        display: flex;
+        align-items: center;
+        margin: auto;
+}
