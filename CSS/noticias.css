@@ -31,10 +31,20 @@ h1{
 
 
 .inicio__texto{
+    color: #FFF;
     position: absolute;
     top: 310px;
-    left: 122px;
+    left: 100px;
+    font-size: 57px;
 }
+
+.inicio__noticia{
+        
+    margin: 35px;
+    font-size: 70px;
+    font-weight: 1000;
+}
+
 
 /* Imagens */
 
@@ -44,14 +54,7 @@ h1{
 }
 
 
-.Independência__foto{
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-}
-
-/* Div Texto e Imagem */
+/* Div Texto e Imagem Taça Independencia*/
 
 .Independência{
     display: flex;
@@ -59,5 +62,65 @@ h1{
 }
 
 .Independência__texto{
+    margin: 60px 40px;
+}
+
+.Independência__titulo{
+    margin: 5px 30px;
+    font-weight: 800;
+}
+
+.Independência__foto{
+    display: flex;
+    justify-content: center;
     margin: 50px;
+    height: 300px;
+}
+
+/* Div Texto e Imagem Paulistão/ */
+
+.paulista{
+    display: flex;
+    align-items: stretch;
+}
+
+.paulista__texto{
+    margin: 50px;
+}
+
+.paulista__titulo{
+    margin: 25px;
+    font-weight: 800;
+}
+
+.paulista__foto{
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 315px;
+}
+
+/* Div Texto e Imagem Paulistão/ */
+
+.brasileirao{
+    display: flex;
+    align-items: stretch;
+}
+
+.brasileirao__texto{
+    margin: 50px;
+}
+
+.brasileirao__titulo{
+    margin: 25px;
+    font-weight: 800;
+}
+
+.brasileirao__foto{
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 340px;
 }
