@@ -41,7 +41,8 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 }
 
 .temporada__foto{
-    padding: 10px;    
+    padding: 10px;
+    margin: 15px 430px;  
 }
 
 /* Taça Independencia */
@@ -64,7 +65,8 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 }
 
 .taçaindependencia__foto{
-    padding: 10px;    
+    padding: 10px;
+    margin: 15px 430px; 
 }
 
 /* Brasileirão Série C */
@@ -87,7 +89,8 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 }
 
 .taçaindependencia__foto{
-    padding: 10px;    
+    padding: 10px;
+    margin: 15px 430px;
 }
 
 /* Copa do Brasil */
@@ -110,5 +113,6 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 }
 
 .taçaindependencia__foto{
-    padding: 10px;    
+    padding: 10px;
+    margin: 15px 430px; 
 }
