@@ -16,25 +16,27 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #000;
-    margin: 30px;
+    margin: 50px;
 }
 
 /* Titulos H1 */
 
 .historia{
     font-family: 'Sofia Sans', sans-serif;
-    font-size: 48px;
+    font-size: 70px;
     color: #DEA500;
     display: flex;
     justify-content: center;
+    margin: 30px;
 }
 
 .titulo{
     font-family: 'Sofia Sans', sans-serif;
-    font-size: 48px;
+    font-size: 70px;
     color: #DEA500;
     display: flex;
     justify-content: center;
+    margin: 30px;
 }
 
 /* Imagens */
@@ -45,14 +47,23 @@ p {
 
 
 .estadio__img{
-    height: 728px;
-    width: 1000px;
+    height: 730px;
+    width: 1200px;
     display: flex;
     justify-content: center;
+    margin: 30px 115px;
 }
 
 .magnum__acao{
-        display: flex;
-        align-items: center;
-        margin: auto;
+    display: flex;
+    align-items: center;
+    margin: 70px 150px;
+}
+
+/* Taça/Titulos do Clube */
+
+.titulo__fotos{
+    display: flex;
+    align-items: center;
+    margin: 35px 185px;
 }
