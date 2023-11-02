@@ -19,6 +19,7 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     font-weight: 1000;
     text-align: center;
     width: 1000px;
+    margin: 30px 180px;
 }
 
 /* Campeonato Paulista */
@@ -66,7 +67,11 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 
 .taçaindependencia__foto{
     padding: 10px;
-    margin: 15px 430px; 
+    margin: 15px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 /* Brasileirão Série C */
