@@ -149,7 +149,6 @@ header {
     .total {
         width: auto ;
         padding: 2rem 3rem;
-
         display: flex;
         justify-content: space-between;
     }
@@ -187,12 +186,7 @@ header {
     
             Laptop
 
-
-
-
-
-
-       /* Cabeçalho */
+      /* Cabeçalho */
 
        header {
 
@@ -232,3 +226,179 @@ header {
 
 
     }
+
+@media (max-width: 1024px){
+
+    /* Cabeçalho */
+
+    header {
+
+        width: 1482px;
+        height: 90px;
+        background-color: #060604;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 0px 30px 0;
+    
+    }
+
+    nav a {
+        color: #F5F5F5;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Sofia Sans', sans-serif;
+        float: left;
+        margin: auto 10px;
+    }
+    
+    .escudo {
+        width: 12%;
+        margin-top: 6px;
+    }
+
+    .instagram{
+        margin: auto 10px;
+        height: 35px;
+    }
+
+    .facebook{
+        margin: auto 10px;
+        height: 35px;
+    } 
+
+
+    }
+        
+    /* Rodapé */
+
+        footer {
+            background-color: black;
+            width: 1482px;
+        }
+        .total {
+            width: auto;
+            padding: 2rem 15rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .parte01, .parte02{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .parte01 h1, .parte02 h1{
+            margin: 15px 80px;
+            font-size: 30px;
+            color: #DEA500;
+        }
+        
+        .div01, .div02{
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+        
+        /* Instagram e Facebook Rodapé */
+        .div01 img { 
+            width: 70px;
+            height: 60px;
+            margin: 10px;
+        }
+        
+        /* Patrocinadores Rodapé */
+        .div02 img {
+            width: 150px;
+            height: 200px;
+}
+
+/* Mobile */
+
+@media (max-width:425px){
+        /* Cabeçalho */
+
+        header {
+
+        width: 1024px;
+        height: 60px;
+        background-color: #060604;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 0px 30px 0;
+}
+        
+        }
+    
+        nav a {
+            color: #F5F5F5;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Sofia Sans', sans-serif;
+            float: left;
+            margin: auto 10px;
+        }
+        
+        .escudo {
+            width: 12%;
+            margin-top: 6px;
+        }
+    
+        .instagram{
+            margin: auto 10px;
+            height: 35px;
+        }
+    
+        .facebook{
+            margin: auto 10px;
+            height: 35px;
+        } 
+    
+    
+            
+        /* Rodapé */
+    
+            footer {
+                background-color: black;
+                width: 1482px;
+            }
+            .total {
+                width: auto;
+                padding: 2rem 15rem;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .parte01, .parte02{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .parte01 h1, .parte02 h1{
+                margin: 15px 80px;
+                font-size: 30px;
+                color: #DEA500;
+            }
+            
+            .div01, .div02{
+                display: flex;
+                align-items: center;
+                margin: auto;
+            }
+            
+            /* Instagram e Facebook Rodapé */
+            .div01 img { 
+                width: 70px;
+                height: 60px;
+                margin: 10px;
+            }
+            
+            /* Patrocinadores Rodapé */
+            .div02 img {
+                width: 150px;
+                height: 200px;
+    }
+    

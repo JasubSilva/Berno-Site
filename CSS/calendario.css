@@ -67,7 +67,7 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 
 .taçaindependencia__foto{
     padding: 10px;
-    margin: 15px 150px;
+    margin: 20px 430px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -93,9 +93,13 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     padding: 15px 35px;
 }
 
-.taçaindependencia__foto{
+.brasileirao__c__foto{
     padding: 10px;
-    margin: 15px 430px;
+    margin: 15px 175px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 /* Copa do Brasil */
@@ -117,7 +121,7 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     padding: 15px 35px;
 }
 
-.taçaindependencia__foto{
+.copa__brasil__foto{
     padding: 10px;
-    margin: 15px 430px; 
+    margin: 20px 430px; 
 }
