@@ -36,8 +36,8 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 500;
     color: #000;
-    text-align: center;
     padding: 23px;
+    margin: auto 15px;
 
 }
 
@@ -53,8 +53,8 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 500;
     color: #000;
-    text-align: center;
     padding: 23px;
+    margin: auto 15px;
 
 }
 
@@ -81,9 +81,8 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 500;
     color: #000;
-    text-align: center;
     padding: 23px;
-
+    margin: auto 15px;
 }
 
 .brasileiro__c__texto{
@@ -109,8 +108,8 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 500;
     color: #000;
-    text-align: center;
     padding: 23px;
+    margin: auto 15px;
 
 }
 

@@ -36,7 +36,13 @@ p {
     color: #DEA500;
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 50px;
+}
+
+.titulo__texto{
+    display: flex;
+    margin: 15px 150px;
+
 }
 
 /* Imagens */

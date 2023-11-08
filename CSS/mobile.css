@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeçalho{
+    display: inline;
+}
+
+.contaider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
