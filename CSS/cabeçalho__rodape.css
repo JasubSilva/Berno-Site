@@ -320,42 +320,47 @@ header {
         /* Cabeçalho */
 
         header {
-        width: 425px;
-        height: 50px;
-        background-color: #060604;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 30px 0px 30px 0;
+            width: 798px;
+            height: 90px;
+            background-color: #060604;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 40px 0px 35px 0;
             }
         
-        
-    
         nav a {
-            color: #F5F5F5;
-            text-decoration: none;
-            font-size: 20px;
-            font-family: 'Sofia Sans', sans-serif;
-            float: left;
-            margin: auto 10px;
+        color: #F5F5F5;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Sofia Sans', sans-serif;
+        float: left;
+        margin: auto 10px;
+        display: none;
         }
         
         .escudo {
-            width: 12%;
-            margin-top: 6px;
+            height: 140px;
+            width: 150px;
+            margin-left: -5px
         }
     
         .instagram{
             margin: auto 10px;
-            height: 35px;
+            height: 70px;
         }
     
         .facebook{
             margin: auto 10px;
-            height: 35px;
+            height: 70px;
         } 
     
-    
+        .redes__cabeçalho{
+            display: flex;
+            float: right;
+            flex-direction: row;
+            margin: auto;
+        }
             
         /* Rodapé */
     
@@ -365,8 +370,8 @@ header {
             }
             
             .total {
-                width: auto;
-                padding: 2rem 5rem;
+                width: 100vh;
+                padding: 2rem 10rem;
                 display: flex;
                 justify-content: center;
             }
@@ -402,7 +407,8 @@ header {
             
             /* Patrocinadores Rodapé */
             .div02 img {
-                width: 150px;
+                width: 170px;
                 height: 200px;
+                margin-top: -60px;
     }
 }
