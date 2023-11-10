@@ -319,15 +319,16 @@ header {
 @media (max-width:425px){
         /* Cabeçalho */
 
-        header {
-            width: 798px;
-            height: 90px;
-            background-color: #060604;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            margin: 40px 0px 35px 0;
-            }
+      header {
+        width: 798px;
+        height: 90px;
+        background-color: #060604;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;        
+        margin: 25px 0px 35px 0;
+            
+        }  
         
         nav a {
         color: #F5F5F5;
@@ -374,6 +375,8 @@ header {
                 padding: 2rem 10rem;
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
+                align-items: center;
             }
             
             .parte01, .parte02{
@@ -382,19 +385,26 @@ header {
                 justify-content: center;
             }
             
-            .parte01 h1{
+            /* .parte01 h1{
                 display: none;
                 
-            }
+            } */
             
-            .parte02 h1{
+            .parte01,.parte02 h1{
                 margin: 15px 80px;
                 font-size: 30px;
                 color: #DEA500;
-                
+                text-wrap: nowrap;
             }
 
-            .div01, .div02{
+            .div01{
+                display: flex;
+                align-items: center;
+                margin: auto;
+                margin-top: 65px;
+            }
+            
+            .div02{
                 display: flex;
                 align-items: center;
                 margin: auto;
@@ -402,7 +412,7 @@ header {
             
             /* Instagram e Facebook Rodapé */
             .div01 img { 
-                display: none;
+                margin-top: -60px;
             }
             
             /* Patrocinadores Rodapé */

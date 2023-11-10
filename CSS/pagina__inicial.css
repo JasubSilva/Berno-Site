@@ -10,7 +10,9 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     padding: 0%;
 }
 
-
+:root {
+    --preto: #060604;
+}
 
 /* Texto corrido */
 h1 {
@@ -51,25 +53,25 @@ h1 {
 
 .elenco__teste{
     border-radius:inherit;
-    background-color: black;
+    background-color:var(--preto);
     height: 400px;
 }
 
 .elenco__teste1{
     border-radius:inherit;
-    background-color: black;
+    background-color: var(--preto);
     height: 400px;
 }
 
 .elenco__teste2{
     border-radius:inherit;
-    background-color: black;
+    background-color:var(--preto);
     height: 400px;
 }
 
 .elenco__teste3{
     border-radius:inherit;
-    background-color: black;
+    background-color: var(--preto);
     height: 400px;
 }
 
@@ -115,3 +117,63 @@ h1 {
     }
 }
 
+/* Mobile */
+
+@media (max-width: 425px){
+
+    .estadio{
+        height: 100vh;
+        width: 162vh;
+    }
+
+    .bem__vindo{
+        position: absolute;
+        top: 530px;
+        margin: 20px 70px;
+        font-size: 50px;
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 900;
+        color: #DEA500;
+        text-wrap: nowrap;
+    }
+
+    .elenco{
+        font-size: 38px;
+        font-family: 'Sofia Sans', sans-serif;
+        color: #DEA500;
+        font-weight: 700;
+        margin: 10px 45px;
+    }
+
+    .diretoria{
+        font-size: 38px;
+        font-family: 'Sofia Sans', sans-serif;
+        color: #DEA500;
+        font-weight: 700;
+        margin: 40px 45px;
+    }
+    .elenco__teste{
+        border-radius: 15px;
+        background-color: var(--preto);
+        height: 200px;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 8px 20px;
+    }
+
+    /* .diretoria__teste{
+        border-radius: 15px;
+        background-color: var(--preto);
+        height: 200px;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 8px 20px;
+    } */
+
+    }
