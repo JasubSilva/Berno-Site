@@ -124,3 +124,75 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     padding: 10px;
     margin: 20px 430px; 
 }
+
+/* Mobile */
+
+@media (max-width:425px){
+
+    /* Titulo Principal */
+
+    .temporada{ 
+        background-color: #F7D020;
+        color: #000;
+        border-radius: 38px;
+        font-size: 60px;
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 1000;
+        text-align: center;
+        width: 932px;
+        margin: 15px 25px;
+    }
+
+    .temporada__titulo, .taçaindependencia ,
+    .copa__brasil,.brasileiro__c{
+        font-size: 48px;
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 500;
+        color: #000;
+        padding: 24px;
+        margin: auto 75px;
+        text-wrap: nowrap;
+    }
+
+    .copa__brasil, .brasileiro__c{
+        font-size: 48px;
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 500;
+        color: #000;
+        padding: 24px;
+        margin: auto 75px;
+        text-wrap: nowrap;
+    }
+    .temporada__paulista,.taçaindependencia__texto{
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        padding: auto 11px;
+        padding: 2px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin: 2px -174px;
+        margin-left: -390px;
+        margin-right: -105px;
+    }
+
+    .brasileiro__c__texto{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin: 2px -174px;
+        margin-left: -161px;
+        margin-right: -378px;
+    }
+
+    .copa__brasil__texto{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
