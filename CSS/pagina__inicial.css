@@ -122,13 +122,13 @@ h1 {
 @media (max-width: 425px){
 
     .estadio{
-        height: 100vh;
-        width: 162vh;
+        height: 70vh;
+        width: 110vh;
     }
 
     .bem__vindo{
         position: absolute;
-        top: 530px;
+        top: 570px;
         margin: 20px 70px;
         font-size: 50px;
         font-family: 'Sofia Sans', sans-serif;
@@ -136,7 +136,7 @@ h1 {
         color: #DEA500;
         text-wrap: nowrap;
     }
-
+    
     .elenco{
         font-size: 38px;
         font-family: 'Sofia Sans', sans-serif;

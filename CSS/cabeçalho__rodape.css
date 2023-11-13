@@ -334,7 +334,7 @@ header {
         margin: 25px 0px 35px 0;
             
         }  
-        
+
         nav a {
         color: var(--branco);
         text-decoration: none;
@@ -346,9 +346,9 @@ header {
         }
         
         .escudo {
-            height: 140px;
-            width: 150px;
-            margin-left: -5px
+            height: 160px;
+            width: 170px;
+            margin-left: -5px;
         }
     
         .instagram{
@@ -366,6 +366,7 @@ header {
             float: right;
             flex-direction: row;
             margin: auto;
+            margin-left: 195px;
         }
             
         /* Rodapé */
@@ -375,8 +376,8 @@ header {
                 width: 930px;
             }
             
-            .total {
-                width: 100vh;
+            .total{
+                width: 65vh;
                 padding: 2rem 10rem;
                 display: flex;
                 justify-content: center;
