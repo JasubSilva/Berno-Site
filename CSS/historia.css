@@ -39,6 +39,16 @@ p {
     margin: 50px;
 }
 
+.taça{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 70px;
+    color: #DEA500;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
 .titulo__texto{
     display: flex;
     margin: 15px 150px;
@@ -68,7 +78,7 @@ p {
 
 /* Taça/Titulos do Clube */
 
-.titulo__fotos{
+.taça__fotos{
     display: flex;
     align-items: center;
     margin: 35px 185px;
@@ -82,30 +92,41 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #000;
-    margin: 50px;
+    padding-left: 5px;
+    text-wrap: balance;
+    margin-right: -180px;
+    margin-top: -3px;
 }
 
 /* Titulos H1 */
 
 .historia{
     font-family: 'Sofia Sans', sans-serif;
-    font-size: 70px;
+    font-size: 55px;
     color: #DEA500;
     display: flex;
     justify-content: center;
     text-wrap: nowrap;
-    margin-right: -260px;
+    margin-right: -215px;
 
 }
 
 .titulo{
     font-family: 'Sofia Sans', sans-serif;
-    font-size: 70px;
+    font-size: 55px;
     color: #DEA500;
     display: flex;
     justify-content: center;
     text-wrap: nowrap;
-    margin-left: 455px;
+    margin-right: -215px;
+}
+.taça{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 55px;
+    color: #DEA500;
+    display: flex;
+    justify-content: center;
+    margin-right: -215px;    
 }
 
 .titulo__texto{
@@ -117,23 +138,26 @@ p {
 /* Imagens */
 
 .taça__independencia{
-        height: 70vh;
-        width: 120vh;
+    height: 50vh;
+    width: 88vh;
+    object-fit: cover;
+    margin-top: -10px;
     }
 
 
 .estadio__img{
-    height: 730px;
-    width: 1200px;
-    display: flex;
-    justify-content: center;
-    margin: 30px 115px;
+    height: 50vh;
+    width: 75vh;
+    object-fit: cover;
+    margin-top: -15px;
+    margin-left: 22px;
 }
 
 .magnum__acao{
     display: flex;
-    align-items: center;
-    margin: 70px 150px;
+    align-items: flex-start;
+    margin: 60px 80px;
+    flex-direction: column;
 }
 
 }
