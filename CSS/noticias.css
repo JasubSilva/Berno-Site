@@ -124,3 +124,87 @@ h1{
     margin: 50px;
     height: 340px;
 }
+
+@media (max-width: 425px){
+
+    .inicio{
+        height: 65vh;
+        width: 110vh;
+        object-fit: cover;
+        margin-top: -8px;
+        margin-left: 5px;
+    }
+
+    .inicio__texto{
+        color: #FFF;
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        font-size: 45px;
+        text-wrap: nowrap;
+    }
+
+    .inicio__noticia{
+        margin: 35px;
+        font-size: 70px;
+        font-weight: 1000;
+        width: max-content;
+    }
+
+    .Independência__texto{
+        margin: auto 68px;
+        display: flex;
+        flex-direction: column;
+        margin-right: -435px;
+    }
+
+    .Independência{
+        display: block;
+    }
+
+    .Independência__foto {
+
+        margin: 30px 15px; 
+        height: 530px;
+        margin-left: 450px;
+        width: 80px;
+    }
+
+    .paulista__texto{
+        margin: auto 68px;
+        display: flex;
+        flex-direction: column;
+        margin-right: -435px;
+    }
+
+    .paulista{
+        display: block;
+    }
+
+    .paulista__foto {
+
+        margin: 30px 15px; 
+        height: 530px;
+        margin-left: 450px;
+        width: 80px;
+    }
+
+    .brasileirao__texto{
+        margin: auto 68px;
+        display: flex;
+        flex-direction: column;
+        margin-right: -435px;
+    }
+
+    .brasileirao{
+        display: block;
+    }
+
+    .brasileirao__foto {
+
+        margin: 30px 15px; 
+        height: 530px;
+        margin-left: 450px;
+        width: 80px;
+    }
+}
