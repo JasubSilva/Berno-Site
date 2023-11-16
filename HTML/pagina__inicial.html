@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/pagina__inicial.css">
     <link rel="stylesheet" href="../CSS/cabeçalho__rodape.css">
+    <link rel="stylesheet" href="../CSS/carrossel.css">
     <title>Pagina Inicial</title>
 
     <!-- Carrosel Elenco e Diretoria -->
-    <!-- <link rel="stylesheet" href="../CSS/owl.carrousel.min.css">
-    <link rel="stylesheet" href="../CSS/owl.theme.default.css">
-    <link rel="stylesheet" href="../javascript/jquery.min.js">
-    <link rel="stylesheet" href="../javascript/owl.carousel.min.js"> -->
+    
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
 
 </head>
 
@@ -38,23 +40,45 @@
 
     </header>
 
+    
+    
         <h1 class="bem__vindo">BEM VINDO(A)
             <br>
             AO SITE OFICIAL DO BERNÔ!
         </h1>
         <img class="estadio" src="../img/Estádio (1).jpeg">
 
+                <!-- Jogadores      -->
+                
+                    <section class=”carrossel”>
+                        <h2 class="carrossel__titulo">ELENCO 2023</h2>
+                    </section>
 
-        <!-- Jogadores      -->
+
+                        <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"> <img src="../img jogadores/Alex Alves.png" alt="Alex Alves Goleiro"></div>
+                    <div class="swiper-slide"> <img src="../img jogadores/Alexsandro 1.png" alt="Alexsandro"></div>
+                    <div class="swiper-slide"> <img src="../img jogadores/Arthur Henrique.png" alt="Arthur Henrique"></div>
+                    <div class="swiper-slide"> <img src="../img jogadores/Alex Alves.png" alt="Alex Alves Goleiro"></div>
+                    <div class="swiper-slide"> <img src="../img jogadores/Alexsandro 1.png" alt="Alexsandro"></div>
+                    <div class="swiper-slide"> <img src="../img jogadores/Arthur Henrique.png" alt="Arthur Henrique"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+        
     
-        <p class="elenco">ELENCO 2023</p>
 
-        <div class="elenco__teste">
-            <img src="../img jogadores/Alex Alves.png" alt="Alex Alves Goleiro" class="elenco__teste">
-            <img src="../img jogadores/Alexsandro 1.png" alt="Alex Alves Goleiro" class="elenco__teste">
-            <img src="../img jogadores/Alex Reinaldo 1.png" alt="Alex Alves Goleiro" class="elenco__teste">
-            <img src="../img jogadores/Arthur Henrique.png" alt="Alex Alves Goleiro" class="elenco__teste">
-        </div>
             <!-- Diretoria -->
 
             <p class="diretoria">DIRETORIA 2023 </p>
@@ -89,6 +113,16 @@
 </footer>
 
     
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <script>
+
+                const swiper = new Swiper('.swiper', {
+                spaceBetween: 100,
+                slidesPerView: 4,
+                });
+
+            </script>
 
 </body>
 
