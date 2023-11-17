@@ -13,14 +13,17 @@
 /* Swiper é o nome do pluggin  */
 
 .swiper-slide img{
-    width: 100%;
+    width: 200px;
     background: black;
-    padding: 0.5em;
+    padding: 5px 10px;
+    object-fit: cover;
+    height: 310px;
+    margin-top: 25px;
 }
 
 .swiper-pagination{
-    position: initial;
-    padding: 10px 5px;
+    position: unset;
+    padding: 10px;
 }
 
 
