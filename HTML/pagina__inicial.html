@@ -54,6 +54,7 @@
                         <h2 class="carrossel__titulo">ELENCO 2023</h2>
                     </section>
 
+                        <!-- Swiper é o nome do pluggin -->
 
                         <!-- Slider main container -->
                 <div class="swiper">
@@ -120,6 +121,10 @@
                 const swiper = new Swiper('.swiper', {
                 spaceBetween: 100,
                 slidesPerView: 4,
+                pagination: {
+                    el:'.swiper-pagination',
+                    type: 'bullets',
+                    },
                 });
 
             </script>
