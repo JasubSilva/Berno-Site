@@ -63,12 +63,15 @@ h1{
 
 .Independência__texto{
     margin: 60px 40px;
+    text-decoration: none;
 }
 
 .Independência__titulo{
     margin: 5px 30px;
     font-weight: 800;
+    text-decoration: none;
 }
+
 
 .Independência__foto{
     display: flex;
@@ -117,7 +120,7 @@ h1{
     font-weight: 800;
 }
 
-.brasileirao__foto{
+.brasileirao__foto img {
     
     display: flex;
     justify-content: center;
@@ -150,6 +153,8 @@ h1{
         font-weight: 1000;
         width: max-content;
     }
+    
+    /* Taça Independencia */
 
     .Independência__texto{
         margin: auto 68px;
@@ -169,8 +174,10 @@ h1{
         margin-left: 450px;
         width: 80px;
     }
+      
+    /* Paulistão */
 
-    .paulista__texto{
+    .paulista__titulo{
         margin: auto 68px;
         display: flex;
         flex-direction: column;
@@ -189,6 +196,28 @@ h1{
         width: 80px;
     }
 
+    .paulista__texto{
+        margin: auto 68px;
+        display: flex;
+        flex-direction: column;
+        margin-right: -435px;
+    }
+
+    
+    /* Brasileirão */
+    
+    
+    .brasileirao{
+        display: block;
+    }
+    
+    .brasileirao__titulo{
+        margin: auto 68px;
+        display: flex;
+        flex-direction: column;
+        margin-right: -435px;
+    }
+
     .brasileirao__texto{
         margin: auto 68px;
         display: flex;
@@ -196,11 +225,7 @@ h1{
         margin-right: -435px;
     }
 
-    .brasileirao{
-        display: block;
-    }
-
-    .brasileirao__foto {
+     .brasileirao__foto {
 
         margin: 30px 15px; 
         height: 530px;
@@ -208,3 +233,5 @@ h1{
         width: 80px;
     }
 }
+
+   
