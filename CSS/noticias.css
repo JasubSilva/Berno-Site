@@ -170,7 +170,7 @@ h1{
     .Independência__foto {
 
         margin: 30px 15px; 
-        height: 530px;
+        height: 50px;
         margin-left: 450px;
         width: 80px;
     }
@@ -189,7 +189,6 @@ h1{
     }
 
     .paulista__foto {
-
         margin: 30px 15px; 
         height: 530px;
         margin-left: 450px;
@@ -235,3 +234,9 @@ h1{
 }
 
    
+@media (max-width: 1440px){
+
+    .Independência__foto{
+        height: 315px;
+    }
+}
