@@ -35,7 +35,7 @@ p {
 
 .taça__independencia{
     height: 560px;
-    width: 1110px;
+    width: 1200px;
 }
 
 
@@ -45,6 +45,16 @@ p {
     display: flex;
     justify-content: center;
     margin: 15px 55px;
+}
+
+.taça__independencia__img1{
+    margin: 10px 190px;
+    height: 500px;
+}
+
+.taça__independencia__img2{
+    margin: 10px 190px;
+    height: 500px;
 }
 
 
@@ -86,7 +96,7 @@ p {
     }
 
 
-.campanha__medalha{
+.teste{
     height: 50vh;
     width: 75vh;
     object-fit: cover;
