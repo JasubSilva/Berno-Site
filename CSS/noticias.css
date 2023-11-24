@@ -80,6 +80,10 @@ h1{
     height: 300px;
 }
 
+.Independência__imagem{
+    height: 91%;
+}
+
 /* Div Texto e Imagem Paulistão/ */
 
 .paulista{
@@ -102,6 +106,10 @@ h1{
     justify-content: center;
     margin: 50px;
     height: 315px;
+}
+
+.paulista__foto1{
+    height: 95%;
 }
 
 /* Div Texto e Imagem Paulistão/ */
