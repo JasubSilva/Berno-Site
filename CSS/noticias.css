@@ -136,6 +136,22 @@ h1{
     height: 340px;
 }
 
+/* Tablet */
+
+@media (max-width:768px){
+    
+    .inicio__noticia {
+        font-size: 70px;
+        font-weight: 1000;
+        text-wrap: nowrap;
+        margin-left: 700px;
+        padding: 20px;
+    }
+
+    .Independência__titulo{
+    }
+}
+
 @media (max-width: 425px){
 
     .inicio{

@@ -27,26 +27,25 @@ p {
     color: #DEA500;
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 40px 65px;
 }
 
 
 /* Imagens */
 
 .taça__independencia{
-    height: 500px;
-    width: 1152px;
-    object-fit: fill;
+    height: 770px;
+    width: 1440px;
 }
 
 
 .paulista__img{
-    height: 600px;
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    margin: 15px 55px;
+    margin: 10px 140px;
+    height: 770px;
 }
+
+/* Tablet */
+
 
 
 @media (max-width:425px){
