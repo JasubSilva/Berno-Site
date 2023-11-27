@@ -80,7 +80,15 @@ p {
 .taça__fotos{
     display: flex;
     align-items: center;
-    margin: 35px 50px;
+    margin: -50px 5px;
+    gap: 20px;
+}
+
+.taças__texto{
+    display: inline-flex;
+    margin: auto -20px;
+    gap: 1px;
+    font-weight: 600;
 }
 
 @media (max-width:425px){
