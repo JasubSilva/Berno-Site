@@ -319,6 +319,39 @@ header {
             height: 200px;
 }
 
+/* Tablet */
+
+@media (max-width: 768px){
+    header{
+        width: 768px;
+        background-color: var(--preto);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 0px 30px 0;
+        height: 50px;
+    }
+
+    .redes__cabeçalho{
+        display: flex;
+        padding: 2px 10px;
+        float: right;
+        flex-direction: row;
+        margin-right: 25px;
+    }
+
+    .facebook {
+        margin: 1px 10px;
+        height: 30px;
+    }
+
+    .instagram {
+        margin: auto 10px;
+        height: 30px;
+    }
+}
+
+
 /* Mobile */
 
 @media (max-width:425px){
