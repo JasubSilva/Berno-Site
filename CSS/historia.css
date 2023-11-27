@@ -63,17 +63,16 @@ p {
 
 
 .estadio__img{
-    height: 730px;
-    width: 1200px;
+    height: 700px;
     display: flex;
     justify-content: center;
-    margin: 30px 115px;
+    margin: 30px 80px;
 }
 
 .magnum__acao{
     display: flex;
     align-items: center;
-    margin: 70px 150px;
+    margin: 70px -10px;
 }
 
 /* Taça/Titulos do Clube */
@@ -81,7 +80,7 @@ p {
 .taça__fotos{
     display: flex;
     align-items: center;
-    margin: 35px 185px;
+    margin: 35px 50px;
 }
 
 @media (max-width:425px){
@@ -137,13 +136,10 @@ p {
 
 /* Imagens */
 
-.taça__independencia{
-    height: 50vh;
-    width: 88vh;
-    object-fit: cover;
-    margin-top: -10px;
-    }
 
+.inicio{
+    height: 560px;
+}
 
 .estadio__img{
     height: 50vh;
