@@ -125,6 +125,21 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     margin: 20px 430px; 
 }
 
+
+@media (max-width: 1440px){
+    .temporada{
+        background-color: #F7D020;
+        color: #000;
+        border-radius: 38px;
+        font-size: 64px;
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 1000;
+        text-align: center;
+        width: 960px;
+        margin: 30px 65px;
+    }
+}
+
 /* Mobile */
 
 @media (max-width:425px){
