@@ -332,6 +332,15 @@ header {
         height: 50px;
     }
 
+    nav a {
+        color: var(--branco);
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Sofia Sans', sans-serif;
+        float: left;
+        margin: auto 10px;
+    }
+
     .redes__cabeçalho{
         display: flex;
         padding: 2px 10px;
@@ -349,7 +358,19 @@ header {
         margin: auto 10px;
         height: 30px;
     }
+
+    footer{
+        background-color: var(--preto);
+        width: 768px;
 }
+    .total{
+        width: auto;
+        padding: 2rem 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 
 
 /* Mobile */

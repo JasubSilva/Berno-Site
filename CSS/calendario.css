@@ -140,6 +140,44 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
     }
 }
 
+    /* Tablet */
+
+@media (max-width:768px){
+
+    /* Conteúdo */
+
+    .temporada{
+        background-color: #F7D020;
+        color: #000;
+        border-radius: 38px;
+        font-size: 45px;
+        font-family: 'Sofia Sans', sans-serif;
+        font-weight: 1000;
+        text-align: center;
+        width: 730px;
+        margin: 30px 18px;
+    }
+    .temporada__foto{
+        padding: 10px;
+        margin: 15px 116px;
+    }
+
+    .taçaindependencia__foto {
+        padding: 10px;
+        margin: 20px 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .copa__brasil__foto {
+        padding: 10px;
+        margin: 20px 100px;
+    }
+    }
+
+
 /* Mobile */
 
 @media (max-width:425px){

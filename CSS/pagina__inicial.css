@@ -81,6 +81,10 @@ h1 {
     height: 400px;
 } */
 
+
+
+/* Laptop L */
+
 @media (max-width:1440px){
     
     .bem__vindo {
@@ -100,6 +104,8 @@ h1 {
     
     }
 
+/* Laptop */
+
 @media (max-width: 1024px){
     
     .bem__vindo {
@@ -115,6 +121,25 @@ h1 {
     .estadio {
         width: 1440px;
     }
+}
+
+/* Tablet */
+
+@media (max-width: 768px){
+
+    .estadio{
+        width: 768px;
+    }
+
+    .bem__vindo{
+        position: absolute;
+        top: 530px;
+        font-size: 40px;
+        font-family: 'Sofia Sans', sans-serif;
+        color: #DEA500;
+        text-wrap: nowrap;
+        margin-left: 75px;
+        }
 }
 
 /* Mobile */
