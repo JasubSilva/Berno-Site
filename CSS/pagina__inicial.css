@@ -110,16 +110,16 @@ h1 {
     
     .bem__vindo {
         position: absolute;
-        top: 822px;
+        top: 580px;
         font-size: 50px;
         font-family: 'Sofia Sans', sans-serif;
         color: #DEA500;
-        margin: -95px 425px;
+        margin: 10px 200px;
         left: -20px;
         }
     
     .estadio {
-        width: 1440px;
+        width: 1110px;
     }
 }
 
