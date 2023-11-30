@@ -133,12 +133,12 @@ h1 {
 
     .bem__vindo{
         position: absolute;
-        top: 530px;
+        top: 410px;
         font-size: 40px;
         font-family: 'Sofia Sans', sans-serif;
         color: #DEA500;
         text-wrap: nowrap;
-        margin-left: 75px;
+        margin-left: 110px;
         }
 }
 
@@ -147,13 +147,12 @@ h1 {
 @media (max-width: 425px){
 
     .estadio{
-        height: 70vh;
-        width: 110vh;
+        width: 705px;
     }
 
     .bem__vindo{
         position: absolute;
-        top: 570px;
+        top: 400px;
         margin: 20px 70px;
         font-size: 50px;
         font-family: 'Sofia Sans', sans-serif;
@@ -162,6 +161,9 @@ h1 {
         text-wrap: nowrap;
     }
     
+
+    /* Conteúdo */
+
     .elenco{
         font-size: 38px;
         font-family: 'Sofia Sans', sans-serif;
@@ -200,5 +202,7 @@ h1 {
         justify-content: flex-start;
         margin: 8px 20px;
     } */
+
+    
 
     }
