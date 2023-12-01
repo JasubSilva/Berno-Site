@@ -16,7 +16,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #000;
-    margin: 10px 65px;
+    margin: 30px 120px;
 }
 
 /* Titulos H1 */
@@ -34,15 +34,13 @@ p {
 /* Imagens */
 
 .taça__independencia{
-    height: 530px;
-    width: 1110px;
-    object-fit: cover;
+    height: 810px;
 }
 
 
 .brasileirao__img{
-    margin: 25px 110px;
-    height: 500px;
+    margin: 30px 125px;
+    height: 650px;
 }
 
 /* Tablet */

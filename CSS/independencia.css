@@ -16,7 +16,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #000;
-    margin: 50px;
+    margin: 30px 130px;
 }
 
 /* Titulos H1 */
@@ -27,7 +27,7 @@ p {
     color: #DEA500;
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 30px 130px;
 }
 
 
