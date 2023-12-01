@@ -143,15 +143,14 @@ h1{
 
     .inicio{
         height: 600px;
-        width: 1110px;
     }
 
     .inicio__texto{
         color: #FFF;
         position: absolute;
         top: 230px;
-        left: 38px;
-        font-size: 50px;
+        left: 60px;
+        font-size: 60px;
     }
 
     .inicio__noticia{
