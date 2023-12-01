@@ -58,7 +58,7 @@ p {
 /* Imagens */
 
 .inicio{
-    height: 600px;
+    height: 722px;
 }
 
 
@@ -66,13 +66,14 @@ p {
     height: 700px;
     display: flex;
     justify-content: center;
-    margin: 30px 80px;
+    margin: 30px 120px;
+    width: 1200px;
 }
 
 .magnum__acao{
     display: flex;
     align-items: center;
-    margin: 70px -10px;
+    margin: 70px 145px;
 }
 
 /* Taça/Titulos do Clube */
@@ -80,16 +81,22 @@ p {
 .taça__fotos{
     display: flex;
     align-items: center;
-    margin: -50px 5px;
+    margin: -50px 160px;
     gap: 20px;
 }
 
 .taças__texto{
     display: inline-flex;
-    margin: auto -20px;
+    margin: auto 150px;
     gap: 1px;
     font-weight: 600;
 }
+
+/* @media (max-width:1400px){
+    .inicio {
+        height: 722px;
+    }
+} */
 
 @media (max-width:425px){
     
