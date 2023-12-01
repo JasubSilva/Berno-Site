@@ -136,6 +136,10 @@ h1{
     height: 340px;
 }
 
+.brasileirao__texto{
+    
+}
+
 
 /* Laptop - 1440px */
 
@@ -172,7 +176,7 @@ h1{
     }
     
     .Independência__imagem{
-        height: 75%;
+        height: 90%;
     }
 
     .Independência__texto{
@@ -180,22 +184,28 @@ h1{
     }
 
     .Independência__titulo{
-        margin-right: 210px;
-            font-weight: 800;
-            font-size: 45px;
+        margin-right: 180px;
+        font-weight: 800;
+        font-size: 45px;
     }
 
     .paulista__foto1{
-        height: 80%;
+        height: 95%;
     }
     
+    .paulista__texto{
+        margin: 30px 40px;
+    }
 
     .brasileirao__foto img{
-        display: flex;
-        justify-content: center;
-        margin: 45px;
-        height: 280px;
+        height: 300px;
+        width: 430px;
+      
     }    
+
+   .brasileirao__titulo{
+
+   }
 }
 
 
