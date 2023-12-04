@@ -92,11 +92,33 @@ p {
     font-weight: 600;
 }
 
-/* @media (max-width:1400px){
-    .inicio {
-        height: 722px;
+@media (max-width:1024px){
+    
+    .inicio{
+        width: 1024px;
     }
-} */
+
+    .estadio__img{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        margin: 30px 12px;
+        width: 1000px;
+    }
+    
+    .magnum__acao{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .taça__fotos{
+        display: flex;
+        align-items: center;
+        margin: -30px -3px;
+        gap: 5px;
+    }
+}
 
 @media (max-width:425px){
     
