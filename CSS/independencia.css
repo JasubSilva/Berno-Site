@@ -58,6 +58,41 @@ p {
 }
 
 
+@media (max-width: 1024px){
+
+    .campanha {
+        font-family: 'Sofia Sans', sans-serif;
+        font-size: 70px;
+        color: #DEA500;
+        display: flex;
+        justify-content: center;
+        margin: 30px 80px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        color: #000;
+        margin: 30px 80px;
+
+    }
+    
+    .taça__independencia {
+        height: 600px;
+        width: 1024px;
+    }
+
+    .taça__independencia__img1 {
+        margin: 10px 65px;
+        height: 600px;
+    }
+
+    .taça__independencia__img2 {
+        margin: 10px 65px;
+        height: 600px;
+    }
+}
+
 @media (max-width:425px){
     
     /* Texto corrido */

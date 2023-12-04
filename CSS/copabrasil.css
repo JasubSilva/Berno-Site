@@ -21,7 +21,7 @@ p {
 
 /* Titulos H1 */
 
-.Copa{
+.historia{
     font-family: 'Sofia Sans', sans-serif;
     font-size: 70px;
     color: #DEA500;
@@ -42,6 +42,37 @@ p {
     margin: 30px 125px;
     height: 650px;
 }
+
+@media (max-width:1024px){
+   
+    .taça__independencia{
+    height: 600px;
+    width: 1024px;
+   }
+    
+   p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #000;
+    margin: 30px 80px;
+    }
+
+   .estadio__img{
+    width: 900px;
+    margin: 20px 65px;
+   }
+
+   .historia{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 70px;
+    color: #DEA500;
+    display: flex;
+    justify-content: center;
+    margin: 20px 80px;
+}
+   
+}
+
 
 /* Tablet */
 

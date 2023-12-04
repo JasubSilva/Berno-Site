@@ -239,7 +239,7 @@ header {
 
     header {
 
-        width: 1110px;
+        width: 1024px;
         background-color: var(--preto);
         display: flex;
         align-items: center;

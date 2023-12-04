@@ -45,7 +45,32 @@ p {
 
 /* Tablet */
 
+@media (max-width:1024px){
+   
+    .taça__independencia {
+        height: 600px;
+        width: 1024px;
+    }
 
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        color: #000;
+        margin: 30px 80px;
+    }
+
+    .brasileirao {
+        font-family: 'Sofia Sans', sans-serif;
+        font-size: 70px;
+        color: #DEA500;
+        margin: 20px 80px;
+    }
+
+    .brasileirao__img {
+        margin: 30px 50px;
+        height: 520px;
+    }
+}
 
 @media (max-width:425px){
     
