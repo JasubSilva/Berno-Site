@@ -247,15 +247,35 @@ h1{
 
 @media (max-width:768px){
     
-    .inicio__noticia {
-        font-size: 70px;
-        font-weight: 1000;
-        text-wrap: nowrap;
-        margin-left: 700px;
-        padding: 20px;
+
+    .inicio{
+        width: 768px;
+        height: 450px;
     }
 
-    
+    .inicio__texto{
+        color: #FFF;
+        position: absolute;
+        top: 185px;
+        left: 25px;
+        font-size: 35px;
+    }
+
+    .inicio__noticia {
+        font-size: 60px;
+        font-weight: 1000;
+        margin-left: 196px;
+    }
+
+    .Independência__titulo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Independência__texto{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 425px){

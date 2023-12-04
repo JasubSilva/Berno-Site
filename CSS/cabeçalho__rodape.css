@@ -149,7 +149,8 @@ header {
 
 
     footer {
-        width: auto;
+        background-color: var(--preto);
+        width: 1440px;
     }
 
     .total {
