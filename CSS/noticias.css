@@ -8,6 +8,7 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 *{
     margin: 0%;
     padding: 0%;
+    text-decoration: none;
 }
 
 /* Texto corrido */
@@ -17,7 +18,7 @@ p {
     font-size: 22px;
     color: #000;
     margin: 30px;
-}
+   }
 
 /* Titulos H1 */
 
@@ -27,7 +28,7 @@ h1{
     color: #DEA500;
     display: flex;
     justify-content: center;
-}
+    }
 
 
 .inicio__texto{
@@ -136,9 +137,6 @@ h1{
     height: 340px;
 }
 
-.brasileirao__texto{
-    
-}
 
 
 /* Laptop - 1440px */
@@ -208,9 +206,7 @@ h1{
       
     }    
 
-   .brasileirao__titulo{
-
-   }
+   
 }
 
 
