@@ -127,12 +127,43 @@ p {
         height: 500px;
     }
 
+    .historia{
+        font-family: 'Sofia Sans', sans-serif;
+        font-size: 70px;
+        color: #DEA500;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px;
+        margin-right: 20px;
+    }
+
     .estadio__img {
         height: 450px;
         display: flex;
         justify-content: center;
         margin: 30px 30px;
         width: 700px;
+    }
+
+    .taça__fotos{
+        display: flex;
+        align-items: center;
+        margin: -30px -15px;
+        gap: 5px;
+    }
+
+    .taças__texto{
+        display: inline-flex;
+        gap: 1px;
+        font-weight: 600;
+        margin: 14px 22px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        color: #000;
+        margin: 10px 30px;
     }
 }
 
