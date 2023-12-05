@@ -98,25 +98,18 @@ p {
     /* Texto corrido */
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    color: #000;
-    padding-left: 5px;
-    text-wrap: balance;
-    margin-right: -180px;
-    margin-top: -3px;
+    margin-right: 21px;
+    margin-top: -5px;
+    margin-left: 40px;
+    font-size: 12px;
 }
 
 /* Titulos H1 */
 
 .campanha{
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 55px;
-    color: #DEA500;
-    display: flex;
-    justify-content: center;
-    text-wrap: nowrap;
-    margin-right: -215px;
+    font-size: 24px;
+    margin-right: 25px;
+    margin-left: 40px;
 
 }
 
@@ -137,6 +130,20 @@ p {
     object-fit: cover;
     margin-top: -15px;
     margin-left: 22px;
+}
+
+.taça__independencia__img1{
+    height: 50vh;
+    width: 75vh;
+    margin-left: 18px;
+    margin-top: -10px;
+}
+
+.taça__independencia__img2{
+    height: 50vh;
+    width: 75vh;
+    margin-left: 18px;
+    margin-top: -10px;
 }
 
 
