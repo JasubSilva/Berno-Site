@@ -82,13 +82,10 @@ p {
     /* Texto corrido */
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    color: #000;
-    padding-left: 5px;
-    text-wrap: balance;
-    margin-right: -180px;
-    margin-top: -3px;
+    margin-right: 21px;
+    margin-top: -5px;
+    margin-left: 40px;
+    font-size: 12px;;
 }
 
 /* Titulos H1 */
@@ -121,6 +118,19 @@ p {
     object-fit: cover;
     margin-top: -15px;
     margin-left: 22px;
+}
+
+.paulista{
+    font-size: 24px;
+    margin-right: 25px;
+    margin-left: 40px;
+}
+
+.paulista__img{
+    height: 50vh;
+    width: 75vh;
+    margin-left: 18px;
+    margin-top: -10px;
 }
 
 
