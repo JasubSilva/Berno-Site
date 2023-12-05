@@ -400,32 +400,38 @@ header {
         }  
 
         nav a {
-        color: var(--branco);
-        text-decoration: none;
-        font-size: 20px;
-        font-family: 'Sofia Sans', sans-serif;
-        float: left;
-        margin: auto 10px;
-        display: none;
+            color: var(--branco);
+            text-decoration: none;
+            font-size: 10px;
+            font-family: 'Sofia Sans', sans-serif;
+            float: left;
+            margin: auto 8px;
+            display: flex;
         }
         
         .escudo {
-            height: 100px;
-            width: 110px;
+            height: 80px;
+            width: 90px;
         }
+    
     
         .instagram {
             margin: 5px;
-            height: 35px;
+            height: 25px;
         }
         .facebook{
             margin: 5px;
-            height: 35px;
+            height: 25px;
         } 
     
-        .redes__cabeçalho {
+        /* .redes__cabeçalho {
             margin: auto;
             margin-right: 160px;
+        } */
+
+        .redes__cabeçalho{
+            margin: auto;
+            margin-right: 1px;
         }
          
         /* Rodapé */
@@ -433,6 +439,7 @@ header {
             footer {
                 width: 425px;
             }
+
 
             .total{
                 width: 25vh;
