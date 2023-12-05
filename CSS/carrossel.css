@@ -26,4 +26,14 @@
     padding: 10px;
 }
 
+@media (max-width:428px){
+    .carrossel__titulo {
+        color: #DEA500;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Sofia Sans', sans-serif;
+        margin-top: 20px;
+    }
+}
 
