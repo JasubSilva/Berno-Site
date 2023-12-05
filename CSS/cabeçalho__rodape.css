@@ -59,13 +59,6 @@ header {
     margin: auto 10 px;
 }
 
-/* .mobile-menu-icon{
-    display: none;
-}
-
-.mobile-menu{
-    display: none;
-} */
 
 .nav-menu{
     display: none;
@@ -387,100 +380,6 @@ header {
 }
 
 @media (max-width: 767px){
-    /* nav a {
-        display: none;
-    }
-
-    .redes__cabeçalho {
-        margin-right: 325px;
-    }
-    
-    .nav-item{
-        display:none;
-    }
-
-    .mobile-menu-icon{
-        display: block;
-    }
-
-
-    .mobile-menu-icon button {
-        background-color:transparent ;
-        border:none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-       
-    }
-
-    .mobile-menu nav-item{
-        display: block;
-        padding: 1.2rem;
-    }
-    
-    .mobile-menu, button{
-        width: 100px;
-    } 
-
-    .open{
-        display: block;
-    }
- */
- /* .nav-menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: #444;
-}
-
-.nav-menu.show {
-    display: flex;
-}
-
-.nav-menu a {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: center;
-}
-
-.menu-toggle {
-    display: flex;
-} */
-
-.nav-menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: #444;
-}
-
-.nav-menu.show {
-    display: flex;
-}
-
-.nav-menu a {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: center;
-}
-
-.menu-toggle {
-    display: flex;
-}
 
 }
 
