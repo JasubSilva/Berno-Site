@@ -232,68 +232,87 @@ Montserrat Medium - Texto corrido (Aba de noticias e calendario) */
 
     /* Titulo Principal */
 
-    .temporada{ 
-        background-color: #F7D020;
-        color: #000;
-        border-radius: 38px;
-        font-size: 60px;
-        font-family: 'Sofia Sans', sans-serif;
-        font-weight: 1000;
-        text-align: center;
-        width: 932px;
-        margin: 15px 25px;
+    .temporada {
+    background-color: #F7D020;
+    color: #000;
+    border-radius: 38px;
+    font-size: 19px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    width: 330px;
+    margin: 15px 35px;
+    }
+
+    .temporada__foto {
+        padding: 10px;
+        margin: 0px 100px;
+        height: 90px;
+    }
+
+    .taçaindependencia__foto {
+        margin: 20px 100px;
+        display: flex;
+        height: 90px;
+    }
+
+    .copa__brasil__foto {
+        margin: 10px 0px;
+        height: 90px;
     }
 
     .temporada__titulo, .taçaindependencia ,
     .copa__brasil,.brasileiro__c{
-        font-size: 48px;
-        font-family: 'Sofia Sans', sans-serif;
-        font-weight: 500;
-        color: #000;
+        font-size: 20px;
         padding: 24px;
         margin: auto 75px;
         text-wrap: nowrap;
     }
 
-    .copa__brasil, .brasileiro__c{
-        font-size: 48px;
+     .brasileiro__c{
+        font-size: 20px;
         font-family: 'Sofia Sans', sans-serif;
         font-weight: 500;
         color: #000;
-        padding: 24px;
-        margin: auto 75px;
+        margin: auto 72px;
         text-wrap: nowrap;
     }
+
     .temporada__paulista,.taçaindependencia__texto{
         
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 12px;
         font-weight: 400;
-        padding: auto 11px;
         padding: 2px 0px;
         display: flex;
         flex-direction: column;
         align-items: baseline;
-        margin: 2px -174px;
-        margin-left: -390px;
-        margin-right: -105px;
+        margin-left: -85px;
+        margin-right: 156px;
     }
 
     .brasileiro__c__texto{
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 12px;
         font-weight: 400;
+        padding: 2px 0px;
         display: flex;
         flex-direction: column;
         align-items: baseline;
-        margin: 2px -174px;
-        margin-left: -161px;
-        margin-right: -378px;
+        margin-left: -30px;
+        margin-right: 90px;
     }
 
     .copa__brasil__texto{
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 12px;
         font-weight: 400;
+        padding: 2px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-left: -30px;
+        margin-right: 90px;
     }
-}
+
+    }
