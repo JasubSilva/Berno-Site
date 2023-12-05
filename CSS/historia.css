@@ -171,45 +171,32 @@ p {
     
     /* Texto corrido */
 
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    color: #000;
-    padding-left: 5px;
-    text-wrap: balance;
-    margin-right: -180px;
-    margin-top: -3px;
-}
+    p {
+        font-size: 12px;
+        padding: 22px 1px;
+    }
+
+    .taças__texto{
+        display: none;
+        font-weight: 600;
+        margin: 10px -20px;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
 
 /* Titulos H1 */
 
 .historia{
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 55px;
-    color: #DEA500;
-    display: flex;
-    justify-content: center;
-    text-wrap: nowrap;
-    margin-right: -215px;
+    font-size: 22px;
 
 }
 
 .titulo{
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 55px;
-    color: #DEA500;
-    display: flex;
-    justify-content: center;
-    text-wrap: nowrap;
-    margin-right: -215px;
+    font-size: 22px;
+    margin: -5px;
 }
 .taça{
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 55px;
-    color: #DEA500;
-    display: flex;
-    justify-content: center;
-    margin-right: -215px;    
+    font-size: 22px;   
 }
 
 .titulo__texto{
@@ -222,7 +209,8 @@ p {
 
 
 .inicio{
-    height: 560px;
+    width: 425px;
+    height: 300px;
 }
 
 .estadio__img{
@@ -238,6 +226,19 @@ p {
     align-items: flex-start;
     margin: 60px 80px;
     flex-direction: column;
+}
+
+.magnum__acao__img{
+    height: 100px;
+}
+
+.taça__fotos{
+    margin: 35px 40px;
+    gap: 10px
+
+}
+.taça__fotos__imgs{
+    height: 100px;
 }
 
 }
